@@ -47,7 +47,7 @@ export class InfoPanel {
     this.nftType.positionX = -143
     this.nftType.positionY = 265
     this.nftType.fontSize = 16
-    this.nftType.fontWeight = "normal"
+    //this.nftType.fontWeight = "normal"
     this.nftType.color = new Color4(1, 0.1, 0.4)
     this.nftType.value = "Not Found"
     this.nftType.visible = false
@@ -59,7 +59,7 @@ export class InfoPanel {
     this.nftTitle.positionX = -143
     this.nftTitle.positionY = 233
     this.nftTitle.fontSize = 25
-    this.nftTitle.fontWeight = "bold"
+    //this.nftTitle.fontWeight = "bold"
     this.nftTitle.color = Color4.Black()
     this.nftTitle.value = "Not Found"
     this.nftTitle.visible = false
@@ -98,7 +98,7 @@ export class InfoPanel {
     this.nftDetails.vAlign = "center"
     this.nftDetails.positionY = -208
     this.nftDetails.fontSize = 18
-    this.nftDetails.fontWeight = "bold"
+   // this.nftDetails.fontWeight = "bold"
     this.nftDetails.color = Color4.Black()
     this.nftDetails.value = "Not Found"
     this.nftDetails.visible = false
@@ -110,7 +110,7 @@ export class InfoPanel {
     this.nftDirectLink.vAlign = "center"
     this.nftDirectLink.positionY = -233
     this.nftDirectLink.fontSize = 10
-    this.nftDirectLink.fontWeight = "normal"
+    //this.nftDirectLink.fontWeight = "normal"
     this.nftDirectLink.color = Color4.Black()
     this.nftDirectLink.value = "Not Found"
     this.nftDirectLink.visible = false
