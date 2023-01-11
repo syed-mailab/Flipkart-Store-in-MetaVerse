@@ -10,7 +10,7 @@ export default {
             position: new Vector3(6.96862, 5.72577, 7.34845)
         },
         top: {
-            name: "Flipkart",
+            name: "MAILAB",
             fontSize: 6,
             color: new Color3(0.1, 0.1, 0.1),
             position: new Vector3(0, 5.84663, 6.39477)
@@ -20,7 +20,7 @@ export default {
         {
             name: "HOMEPAGE",
             model: "models/social_media/homepage.glb",
-            link: "https://www.flipkart.com/",
+            link: "https://www.megaailab.com/",
             position: new Vector3(1.5, 1.3, -5.35)
         },
         {
@@ -42,19 +42,21 @@ export default {
             position: new Vector3(-1.5, 1.3, -5.35)
         }
     ],
-    videoScreen: {
-        src: "https://bafybeid5ll3dkfhnkkbqdujf7iqxyuslnhlf23jzjcjbbo6nwm54mtgije.ipfs.dweb.link/flipkart.mp4",
+    videoScreen: 
+    {
+        src: "'https://bafybeibsvhenzjmxt7mlbxv7pwnmjxggpw4yvz6ayfzqi4kuppg4ap5fj4.ipfs.dweb.link/Bas%20karo%20Thoda%20Intezaar.%20Don%27t%20Shop%20Now%21.mp4",
         width: 1280,
         height: 720
     },
+                
     wearable: [
         {
-            name: "Razor Blade Jacket",
-            model: "models/wearables/1.glb",
-            link: "https://www.flipkart.com/search?q=men%20jackets&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off",
-            position: new Vector3(4.2, -0.1, 5.1),
-            rotation: Quaternion.Euler(0,0,0),
-            scale: new Vector3(1.1, 1.1, 1.1)
+            name: "beauty cream",
+            model: "models/wearables/skinplicity.glb",
+            link: "https://www.maisonselene.com/camellia-hydrating-facial-cleanser",
+            position: new Vector3(4.2, 0.4, 5.1),
+            rotation: Quaternion.Euler(0,-45,0),
+            scale: new Vector3(0.05, 0.05, 0.05)
         },
         {
             name: "DCL Logo Hoddie",
@@ -81,20 +83,20 @@ export default {
             scale: new Vector3(1.1, 1.1, 1.1)
         },
         {
-            name: "Women Dress",
-            model: "models/wearables/leather_jacket/scene.gltf",
+            name: "Beauty Cream",
+            model: "models/wearables/party.glb",
             link: "https://market.decentraland.org/",
-            position: new Vector3(0, 1.5, 0.7),
+            position: new Vector3(0, 0.5, 0.7),
             rotation: Quaternion.Euler(0, 0, 0),
-            scale: new Vector3(1.1, 1.1, 1.1)
+            scale: new Vector3(1.0, 1.0, 1.0)
         },
         {
-            name: "CitySneakers",
-            model: "models/wearables/6.glb",
-            link: "https://market.decentraland.org/",
+            name: "lipstick",
+            model: "models/wearables/glitter_lipstick.glb",
+            link: "https://www.maisonselene.com/camellia-hydrating-facial-cleanser",
             position: new Vector3(1, 0.7, -0.7),
             rotation: Quaternion.Euler(0, 45, 0),
-            scale: new Vector3(1.1, 1.1, 1.1)
+            scale: new Vector3(5.1, 5.1, 5.1)
         },
         {
             name: "Rollers",

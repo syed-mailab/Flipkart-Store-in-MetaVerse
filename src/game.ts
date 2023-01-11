@@ -411,15 +411,14 @@ const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
 const inventory = createInventory(UICanvas, UIContainerStack, UIImage)
 const options = { inventory }
-
 const script1 = new Script1()
 script1.init()
 script1.spawn(imageFromURL, {"image":"https://bafybeiegpazlbhaqw7mrl4eqnahxip5bqh4ppf6mm3d7zity23ujgvnjdi.ipfs.dweb.link/avtarSuitQR.png"}, createChannel(channelId, imageFromURL, channelBus))
 script1.spawn(imageFromURL2, {"image":"https://bafybeiegpazlbhaqw7mrl4eqnahxip5bqh4ppf6mm3d7zity23ujgvnjdi.ipfs.dweb.link/avtarSuitQR.png"}, createChannel(channelId, imageFromURL2, channelBus))
 script1.spawn(imageFromURL3, {"image":"https://bafybeiegpazlbhaqw7mrl4eqnahxip5bqh4ppf6mm3d7zity23ujgvnjdi.ipfs.dweb.link/avtarSuitQR.png"}, createChannel(channelId, imageFromURL3, channelBus))
 script1.spawn(imageFromURL4, {"image":"https://bafybeiegpazlbhaqw7mrl4eqnahxip5bqh4ppf6mm3d7zity23ujgvnjdi.ipfs.dweb.link/avtarSuitQR.png"}, createChannel(channelId, imageFromURL4, channelBus))
-script1.spawn(imageFromURL5, {"image":"https://bafybeibouwivw3m3dhtlb3iq5bhlihxxt7qxg3pn2qsgdsdejibfzp5tva.ipfs.dweb.link/Flipkart-Plus.jpg"}, createChannel(channelId, imageFromURL5, channelBus))
-script1.spawn(imageFromURL6, {"image":"https://bafybeiavauicvjx5gfd7jaijhovjgo6jk7gmszd7r73iog357ioqsdnplq.ipfs.dweb.link/1600858456_HulSrV_Flipkart.jpg"}, createChannel(channelId, imageFromURL6, channelBus))
+script1.spawn(imageFromURL5, {"image":"https://ipfs.io/ipfs/QmRXAymVqGLtPxkrK8PLvobcE6Qc5qK12dAzEfLXX4u2sc?filename=1-512-256.png"}, createChannel(channelId, imageFromURL5, channelBus))
+script1.spawn(imageFromURL6, {"image":"https://ipfs.io/ipfs/QmRXAymVqGLtPxkrK8PLvobcE6Qc5qK12dAzEfLXX4u2sc?filename=1-512-256.png"}, createChannel(channelId, imageFromURL6, channelBus))
 
 //-----------------------------------------------------------------QR Codes ends---------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -469,7 +468,7 @@ screenTransform.getComponent(Transform).scale.setAll(0.625) // You can change th
 
 // Video stream link from Vimeo
 const videoClip = new VideoClip(
-  'https://bafybeibsvhenzjmxt7mlbxv7pwnmjxggpw4yvz6ayfzqi4kuppg4ap5fj4.ipfs.dweb.link/Bas%20karo%20Thoda%20Intezaar.%20Don%27t%20Shop%20Now%21.mp4'
+  'https://ipfs.io/ipfs/QmbJp3vuJ6LWBx9zQ4ejersUrCFmnpgQJWQu62yqVyWNwM?filename=out.mp4'
 )
 const videoTexture = new VideoTexture(videoClip)
 videoTexture.play()
@@ -1018,8 +1017,8 @@ const script11 = new Script11()
 const script22 = new Script22()
 script11.init()
 script22.init()
-script11.spawn(imageBillboardBlack, {"image":"https://bafybeicvk22pvfqxtehwozr3bbk6kua2uzj5ngyb7mgisvllycimzi5fji.ipfs.dweb.link/flipkart_plus.jpg"}, createChannel(channelId1, imageBillboardBlack, channelBus1))
-script22.spawn(imageScreen, {"image":"https://bafybeiawevsjnojmluim6y3hsk5nwky5abxibd32xfuki7n5zhszmskvzu.ipfs.dweb.link/SuperCoins_Main_Banner_.jpg"}, createChannel(channelId1, imageScreen, channelBus1))
+script11.spawn(imageBillboardBlack, {"image":"https://ipfs.io/ipfs/QmRXAymVqGLtPxkrK8PLvobcE6Qc5qK12dAzEfLXX4u2sc?filename=1-512-256.png"}, createChannel(channelId1, imageBillboardBlack, channelBus1))
+script22.spawn(imageScreen, {"image":"https://ipfs.io/ipfs/QmRXAymVqGLtPxkrK8PLvobcE6Qc5qK12dAzEfLXX4u2sc?filename=1-512-256.png"}, createChannel(channelId1, imageScreen, channelBus1))
 
 //--------------------------------------------Billboard and banner ends-------------------------------------------------------------
 
@@ -1048,5 +1047,5 @@ const channelBus22 = new MessageBus()
 
 const script100 = new Script100()
 script100.init()
-script100.spawn(pm1, {"image":"https://bafybeigp2odug5gjmezwtayltfahnetwzqd7z4lb3gxp5gx2vlgo6wd2pa.ipfs.dweb.link/001.jpg"}, createChannel(channelId22, pm1, channelBus22))
-script100.spawn(pm2, {"image":"https://bafybeifvs3s77zchm2zqndzusj5vpeotfcyrtj4i7sa6wwxcfnumzerkmy.ipfs.dweb.link/004.jpg"}, createChannel(channelId22, pm2, channelBus22))
+script100.spawn(pm1, {"image":"https://ipfs.io/ipfs/QmNSvwYjkvnXzXLESzbcP42omhecmjqYL6nAu2M4Ket9kR?filename=001.jpg"}, createChannel(channelId22, pm1, channelBus22))
+script100.spawn(pm2, {"image":"https://ipfs.io/ipfs/QmY6PLaazzXgcNR5mTcHkN7nMWUDA18JettniENnNAWDrk?filename=004.jpg"}, createChannel(channelId22, pm2, channelBus22))
